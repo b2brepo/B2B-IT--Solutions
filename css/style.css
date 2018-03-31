@@ -146,6 +146,9 @@ img.img-polaroid {
 	margin-right:5px;
 	color: #fdd428;
 }
+.fz{
+	font-size: 20px;
+}
 .topbar p:last-child{
 	text-align:right;
 } 
@@ -1049,6 +1052,7 @@ ul.link-list li{
 footer{background: #f6f6f6;}
 footer ul.link-list li a{
 	color: #00aae1;
+	font-size: 16px;
 }
 footer ul.link-list li a:hover {
 	color: #5b479c;
@@ -1438,7 +1442,7 @@ footer .social-network a {
 }
 
 footer a:hover {
-	color: #000;
+	color:#1d62d1;
 }
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
@@ -1448,10 +1452,12 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
 footer address {
 	line-height:1.6em;
 	color: #00aae1;
+	font-size: 16px;
 }
 
 footer h5 a:hover, footer a:hover {
 	text-decoration:none;
+	color: #24c4db
 }
 
 ul.social-network {
@@ -1863,4 +1869,10 @@ padding-top: 3px;
 }
 .mainImg img{
 	width: 100%;
+}
+.fa-mobile-phone:before, .fa-mobile:before{
+	vertical-align: middle;
+}
+#content > footer > div.container > div > div:nth-child(1) > div > p{
+	line-height: 2em;
 }
