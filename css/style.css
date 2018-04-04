@@ -41,7 +41,7 @@ h1,h2{
 }
 h3, h4, h5, h6 {
 	line-height:1.1em;
-	color: #5b479c;
+	color: #12157F;
 	margin-bottom: 20px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
@@ -68,11 +68,14 @@ input, button, select, textarea {
 	margin:0;
 	padding:0;
 }
-ul.withArrow{
-	
+.withArrow
+{
+	padding-top: 30px;
 }
-ul.withArrow li{
-	
+.withArrow li
+{
+    list-style-type: none;
+    line-height: 35px;
 }
 ul.withArrow li span{
 	
@@ -753,6 +756,9 @@ form#contactform .validation {
 	margin-bottom:30px;
 
 }
+.aln{
+	line-height: 1.8em;
+}
 
 #sendmessage.show,.show  {
 	display:block;
@@ -1027,6 +1033,7 @@ blockquote cite a:visited 				{ color:#555; }
     border-radius: 0;
     background: #12157F;
 	border-color: #12157F;
+	margin-top: 10px;
 }
 .btn-theme {
 	color: #fff;
