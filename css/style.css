@@ -1585,6 +1585,10 @@ a.scrollup i:hover {
 
 .aligncenter {
 	text-align:center;
+	
+}
+.paln{
+	text-align: justify;
 }
  
 img.pull-left, .align-left{
