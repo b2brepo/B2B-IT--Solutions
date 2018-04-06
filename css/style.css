@@ -116,6 +116,9 @@ width: 20px;
 .about-image img {
     width: 100%;
 }
+.ht{
+height: 100px;
+}
 img.img-polaroid {
 	margin:0 0 20px 0;
 }
@@ -1942,6 +1945,7 @@ padding-top: 3px;
 }
 .cms p
 {
-    line-height: 20px;
+    line-height: 24px;
     text-align: justify;
+    margin-top: 10px;
 }
