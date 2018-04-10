@@ -31,7 +31,7 @@ a:active {
 h1,h2{
 	font-weight: 600;
 	line-height:1.1em;
-	color: #5b479c;
+	color: #12157F;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -41,7 +41,7 @@ h1,h2{
 }
 h3, h4, h5, h6 {
 	line-height:1.1em;
-	color: #5b479c;
+	color: #12157F;
 	margin-bottom: 20px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
@@ -115,6 +115,9 @@ width: 20px;
 }
 .about-image img {
     width: 100%;
+}
+.ht{
+height: 100px;
 }
 img.img-polaroid {
 	margin:0 0 20px 0;
@@ -385,9 +388,13 @@ ul.nav li.dropdown a {
 	display:none;
 }
 .pageTitle{
-color: #fff;
+color: #ffffff;
 margin: 30px 0 3px;
 display: inline-block;
+}
+.ps{
+line-height: 1.8em;
+font-weight:600;
 }
  
 #banner{
@@ -436,18 +443,24 @@ right:0px;
 	border-radius: 15px 15px 0 0;
 }
 .flex-caption h3 {
-	color: #12157f;
+	color: #ffffff;
 	letter-spacing: 0px;
-	margin-bottom: 8px;
+	margin-bottom: 172px;
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: 700;
-	text-shadow: 4px 5px 10px #FFF;
+	line-height: 2;
+	position: absolute;
+    right: -60px;
+    bottom: 1px;
+    margin: auto;
+	/*text-shadow: 4px 5px 10px #FFF;*/
 }
 .flex-caption p {margin: 12px 0 18px;font-size: 22px;font-weight: 400;}
 .skill-home{
 margin-bottom:50px;
 }
+
 .c1{
 border: #ed5441 1px solid;
 background:#ed5441;
@@ -677,7 +690,7 @@ section.hero-text h1{
 
 
 #inner-headline h2.pageTitle{
-	color: rgba(255, 255, 255, 0.84);
+	/*color: rgba(255, 255, 255, 0.84);*/
 	padding: 5px 0;
 	display:block;
 	text-transform: capitalize;
@@ -755,6 +768,9 @@ form#contactform .validation {
 	font-weight:600;
 	margin-bottom:30px;
 
+}
+.aln{
+	line-height: 1.8em;
 }
 
 #sendmessage.show,.show  {
@@ -1030,6 +1046,7 @@ blockquote cite a:visited 				{ color:#555; }
     border-radius: 0;
     background: #12157F;
 	border-color: #12157F;
+	margin-top: 10px;
 }
 .btn-theme {
 	color: #fff;
@@ -1457,7 +1474,7 @@ footer a:hover {
 }
 
 footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
-	color: #5b479c;
+	color: #12157F;
 }
 
 footer address {
@@ -1581,6 +1598,10 @@ a.scrollup i:hover {
 
 .aligncenter {
 	text-align:center;
+	
+}
+.paln{
+	text-align: justify;
 }
  
 img.pull-left, .align-left{
@@ -1924,6 +1945,7 @@ padding-top: 3px;
 }
 .cms p
 {
-    line-height: 20px;
+    line-height: 24px;
     text-align: justify;
+    margin-top: 10px;
 }
