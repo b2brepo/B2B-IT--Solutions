@@ -68,11 +68,14 @@ input, button, select, textarea {
 	margin:0;
 	padding:0;
 }
-ul.withArrow{
-	
+.withArrow
+{
+	padding-top: 30px;
 }
-ul.withArrow li{
-	
+.withArrow li
+{
+    list-style-type: none;
+    line-height: 35px;
 }
 ul.withArrow li span{
 	
