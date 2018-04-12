@@ -9,11 +9,15 @@ Note: Licence under Creative Commons Attribution 3.0
 @import url('animate.css');
 
 body {
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family:'Open Sans', Arial, sans-serif!important;
 	font-weight:300;
 	line-height:1.6em;
 	color:#656565;
 	font-size: 1.4em;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
 a:active {
@@ -47,7 +51,7 @@ h3, h4, h5, h6 {
 	font-weight: 600;
 }
 input, button, select, textarea { 
-    border-radius: 0px !important;
+    border-radius: 0px important;
 }
 .timetable{background: #2ab975;padding: 5px 23px;}
 .timetable hr{
@@ -193,7 +197,7 @@ header .navbar-collapse  ul.navbar-nav {
 header .navbar {min-height: 70px;padding: 18px 0;background: #ffffff;}
 .home-page header .navbar-default{
     background: #ffffff;
-    /* position: absolute; */
+     position: absolute;
     width: 100%;
     box-shadow: 1px 1px 1px rgba(156, 156, 156, 0.36);
 }
@@ -404,6 +408,7 @@ font-weight:600;
 	margin:0;
 	padding:0;
 }
+
 
 /*  Sliders
 ==================================== */
@@ -1948,4 +1953,38 @@ padding-top: 3px;
     line-height: 24px;
     text-align: justify;
     margin-top: 10px;
+}
+.lh{
+	line-height: 2em
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container-bdy {
+    border-radius: 5px;
+    background-color: #12157F;
+    padding: 20px;
+    width: 600px;
+}
+input[type=submit] {
+    background-color: #242AFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #15E8E8;
+}
+.txtaln{
+	padding-top: 40px;
 }

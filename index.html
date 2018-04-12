@@ -12,6 +12,7 @@
 <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet"> 
 <link href="css/flexslider.css" rel="stylesheet" /> 
 <link href="css/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -20,7 +21,7 @@
 
 </head>
 <body>
-<div id="wrapper" class="home-page container-fluid">
+<dv id="wrapper" class="home-page container-fluid">
 <div class="topbar">
   <div class="container">
     <div class="row">
@@ -53,7 +54,7 @@
                             <li><a href="Web-designing.html">Web Designing</a></li>
                             <li><a href="Web-development.html">Web Development</a></li>
                             <li><a href="SEO.html">SEO Services</a></li> 
-                            <li><a href="SMO.html">SMO Services</a></li>
+                            <li><a href="SMO.html">E-Commerce Devolopment</a></li>
 							<li><a href="Graphic-design.html">Graphic Design</a></li>
 							<li><a href="Mobile-apps.html">Mobile Apps</a></li>
 							<li><a href="Digital-marketing.html">Digital Marketing</a></li>
@@ -69,56 +70,58 @@
         </div>
 	</header>
 	<!-- end header -->
-	<section id="banner">
-	 
-	<!-- Slider -->
-        <div id="main-slider" class="flexslider">
+	<section>
+		<!-- Slider -->
+       <!-- <div id="main-slider" class="flexslider">
             <ul class="slides">
 			<li>
                 <img src="img/slides/B1.jpg">
                 <div class="flex-caption">
                     <h3><q> We Design <br> & Create </q></h3>
-					<!--<p>Name your business uniquely</p> -->
-				</div>
+					<p>Name your business uniquely</p> -->
+				<!--</div>
             </li>
 			<li>
                 <img src="img/slides/B5.jpg" alt="" />
-                <!--<div class="flex-caption">
+                <div class="flex-caption">
 					 
                     <h3>Domain Registration	</h3> 
 					<p>Name your business uniquely</p> 
 					 
-                </div>-->
+                </div>
               </li>
-<<<<<<< HEAD
-              <li>
-                <img src="img/slides/happy%20clients.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>100+ Happy clients all
-=======
              <li>
                 <img src="img/slides/B3.jpg" alt="" />
-                <!--<div class="flex-caption">
+                <div class="flex-caption">
                    <h3>100+ Happy clients all
->>>>>>> 1b6f1070991df9f85b5d55e9734434d0b57f6e94
                   over the world.</h3> 
 					<p>2500+ Solutions has been delivered at various platforms.</p> 
 					 
                 </div>-->
-              </li>
-              <li>
+              </li>-->
+             <!-- <li>
                 <img src="img/slides/2.jpg" alt="" />
-                <!-- <div class="flex-caption">
+                 <div class="flex-caption">
                    <h3>Solution</h3> 
 					<p>B2B IT Solutions helps you to quickly and easily provide incredible solutions</p> 
 					 
-                </div>-->
-              </li>
-            </ul>
-        </div>
+                </div>
+              </li>-->
+           <!-- </ul>
+        </div>-->
 	<!-- end slider -->
- 
-	</section> 
+	<!-- Slider -->
+	<div>
+	<div>
+  <img class="mySlides w3-animate-fading" src="img/slides/B1.jpg" height="500px">
+  <img class="mySlides w3-animate-fading" src="img/slides/B5.jpg" height="500px">
+  <img class="mySlides w3-animate-fading" src="img/slides/B3.jpg" height="500px">
+ <!-- <img class="mySlides w3-animate-fading" src="img/slides/2.jpg" style="width:100%">-->
+
+</div>
+</div>
+
+	 </section> 
 	<section id="call-to-action-2">
 		<div class="container">
 			<div class="row">
@@ -449,6 +452,9 @@ Hadoop, Cloudera and MongoDB are the most preferred option for data storage and 
   gtag('js', new Date());
 
   gtag('config', 'UA-111621007-1');
+  
+
+  
 </script>
 
 	</footer>
@@ -470,6 +476,23 @@ Hadoop, Cloudera and MongoDB are the most preferred option for data storage and 
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000);    
+}
+</script>
 
 </body>
 </html>
